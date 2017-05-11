@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<themeeditor>
+	<author>leotheme</author>
+	<name>Live Theme Editor</name>	
+	<configs>
+		<item>
+			<block>header_style</block>
+			<title>Header Style</title>
+			<default>classic</default>
+			<option>
+				 <name>Default</name>
+				 <id>header-default</id>
+			</option>
+			<!-- <option>
+				 <name>Classic</name>
+				 <id>header-classic</id>
+			</option> -->
+			<option>
+				 <name>Simple</name>
+				 <id>header-simple</id>
+			</option>
+			<!-- <option>
+				 <name>Modern</name>
+				 <id>header-modern</id>
+			</option>
+			<option>
+				 <name>Magazine</name>
+				 <id>header-magazine</id>
+			</option>
+			<option>
+				 <name>Fixed</name>
+				 <id>header-fixed</id>
+			</option>
+			<option>
+				 <name>Transparent</name>
+				 <id>header-transparent</id>
+			</option>
+			<option>
+				 <name>Below Slider</name>
+				 <id>header-below-slider</id>
+			</option>
+			<option>
+				 <name>Stack: Left</name>
+				 <id>header-stack-left</id>
+			</option> -->
+			<option>
+				 <name>Stack: Right</name>
+				 <id>header-stack-right</id>
+			</option>
+			<option>
+				 <name>Stack: Center</name>
+				 <id>header-stack-center</id>
+			</option>
+			<!-- <option>
+				 <name>Creative</name>
+				 <id>header-creative</id>
+			</option>
+			<option>
+				 <name>Creative: Always open</name>
+				 <id>header-creative-always-open</id>
+			</option> -->
+		</item>
+	</configs>
+</themeeditor>

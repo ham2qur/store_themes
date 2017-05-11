@@ -1,0 +1,73 @@
+#login_form_content .control-label {width:80px;}
+#login_form_content .controls {margin-left:87px;}
+#orderopc  #left_column {display:none}
+#orderopc #center_column{width:757px}
+#orderopc  #left_column h2 {margin-top:20px}
+#opc_account_choice {padding:0 15px;}
+#opc_account_choice .opc_float {}
+#opc_account_choice .opc_float ul {}
+#new_account_form  fieldset {}
+#new_account_form  h3 {}
+#center_column #opc_account_form p.required {
+	margin: 0;
+	font-size: 14px;
+	line-height: 35px;
+}
+#new_account_form p.required {}
+#new_account_form p.required  sup {color:red;}
+
+#new_account_form p.radio label {
+	padding-right:10px;
+	font-size:14px;
+}
+#new_account_form p.radio span,
+#new_account_form p.text label,
+#new_account_form p.password label,
+#new_account_form p.select label,
+#new_account_form p.select span,
+#new_account_form p.textarea label {
+	display:inline-block;
+	padding:6px 4px 6px 0;
+	width:79px;/* 130 */
+	text-align:right;
+	margin-bottom: 10px;
+}
+#new_account_form p.checkbox label {
+	font-size:12px;
+}
+#new_account_form p.text input,
+#new_account_form p.password input,
+#new_account_form p.select input {
+	width:206px;/* 216 */
+	margin-top: 7px;
+}
+#new_account_form p.checkbox input {
+	margin-left:260px;
+}
+#new_account_form p.select select {
+	margin-top:7px;
+}
+#new_account_form p.textarea textarea {
+	height:80px;
+	width:370px;
+	border:1px solid #ccc;
+	font-size: 12px;
+	color:#666
+}
+#new_account_form span.form_info,
+#new_account_form span.inline-infos, #new_account_form p.inline-infos {
+	display:block;
+	margin:5px 0 0 265px!important;
+	color:#666
+}
+#new_account_form .id_state, #new_account_form .dni, #new_account_form .postcode {
+	display: none;
+}
+#opc_account_errors {
+	margin: 10px;
+	margin-bottom: 15px;
+}
+#center_column #new_account_form p#opc_account_saved {}
+#submitAccount {
+	margin-left: 133px;
+}

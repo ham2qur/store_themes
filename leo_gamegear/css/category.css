@@ -1,0 +1,29 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+#subcategories {
+  margin-bottom: 25px;
+  padding: 10px 0;
+  background: white;
+}
+
+.subcategories .cat-desc {
+  overflow: hidden;
+  height: 39px;
+  text-align: center;
+}
+.subcategories .cat-name {
+  text-align: center;
+}

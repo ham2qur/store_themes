@@ -1,0 +1,14 @@
+@import "compass";
+@import "theme_variables";
+
+.tags_block {
+	a {
+		border: $main-border;
+		padding: 2px 5px;
+		margin-bottom: 3px;
+		display: inline-block;
+		&:hover {
+			border: $main-border-hover;
+		}
+	}
+}

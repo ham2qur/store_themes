@@ -1,0 +1,26 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+@font-face {
+  font-family: 'NokiaStandardMultiscriptRegular';
+  src: url("../fonts/nokiastandardmultiscript.eot");
+  src: url("../fonts/nokiastandardmultiscript.eot") format("embedded-opentype"), url("../fonts/nokiastandardmultiscript.woff2") format("woff2"), url("../fonts/nokiastandardmultiscript.woff") format("woff"), url("../fonts/nokiastandardmultiscript.ttf") format("truetype"), url("../fonts/nokiastandardmultiscript.svg#NokiaStandardMultiscriptRegular") format("svg");
+}
+
+@font-face {
+  font-family: 'NokiaStandardMultiscriptBold';
+  src: url("../fonts/nokia_standard_multiscript_bold.eot");
+  src: url("../fonts/nokia_standard_multiscript_bold.eot") format("embedded-opentype"), url("../fonts/nokia_standard_multiscript_bold.woff2") format("woff2"), url("../fonts/nokia_standard_multiscript_bold.woff") format("woff"), url("../fonts/nokia_standard_multiscript_bold.ttf") format("truetype"), url("../fonts/nokia_standard_multiscript_bold.svg#NokiaStandardMultiscriptBold") format("svg");
+}

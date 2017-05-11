@@ -1,0 +1,4 @@
+/* BREADCRUMB */
+#breadcrumb .breadcrumb { background-color: #222 !important; color: #BE81F7 !important; }
+#breadcrumb .breadcrumb a { background-color: #222 !important; color: white !important; }
+#breadcrumb .breadcrumb .navigation-pipe { color: white !important; }

@@ -1,0 +1,426 @@
+
+//base
+a{
+    &:hover,
+    &:focus {
+        color: $link-hover-color;
+    }
+}
+//prestashop page
+.content_sortPagiBar{
+	.display{
+    .selected{
+  		a{	
+		    background-color: $theme-color-default;
+		    border: 1px solid $theme-color-default; 
+		    .fa {
+		         color: $white; 
+		    }   
+  		}
+    }
+	}
+} 
+// BREADCRUMB
+.breadcrumb {
+	color: $breadcrumb-active-color;       
+	a {
+	  &:hover {
+	      color: $breadcrumb-active-color;
+	  }
+	}
+
+}
+
+// header
+/* .header-left{ 
+  #header_logo{
+    a {
+      background: $theme-color-default;
+    }
+  }
+} */
+#header-main{
+  /* background-image: $headermain-outside-bg; */
+  .popup-content {
+    ul {
+      li {
+        &.selected {
+          span {
+            color: $theme-color-default;
+          }
+        }
+      }
+    }
+  }
+}
+
+//pop up content
+.popup-over{
+    .popup-content{
+        li{
+            &.selected{
+                color: $theme-color-default !important;
+            }
+            a{
+              &:hover{
+                  color: $link-hover-color !important;
+              }
+          }
+        }
+    }
+}
+
+// BREADCRUMB
+.breadcrumb {
+  color: $breadcrumb-active-color;
+  a {
+    &:hover {
+        color: $breadcrumb-active-color;
+    }
+  }
+}
+
+// block.scss
+.#{$block-selector} { 
+    .#{$block-heading-selector}{
+        span {
+            color: $theme-color-default;
+        }
+    }
+}
+
+// leomanagewidget
+.widget {
+  .tags_block {
+    a {
+      &:hover {
+        border: $main-border-hover;
+      }
+    }
+  }
+  .widget-manufacture {
+    .carousel-control {
+      &:hover {
+        &:before {
+          color: $theme-color-default;
+        }
+      }
+    }
+  }
+  .widget-html {
+    .blog_container {
+      .blog-image {
+        h5 {
+          a {
+            &:hover {
+              color: #FFF;
+            }
+          }
+        }
+      }
+      .blog-content {
+        .blog-viewmore {
+          a {
+            &:hover {
+              color: $theme-color-default;
+            }
+          }
+        }
+      }
+    }
+  }
+  .leomanagerwidgets {
+    .product-block {
+      &:hover {
+        .functional-buttons {
+          background: $theme-color-default;
+        }
+      }
+    }
+  }
+  .box-services {
+    &:hover {
+      .iconbox {
+        background-color: $theme-color-default;
+      }
+    }
+  }
+}
+
+.footer-container {
+  .widget-html {
+    .copyright {
+      .copyrightcenter {
+        .text {
+          color: $theme-color-default;
+        }
+      }
+    }
+    .payment {
+      a {
+        &:hover {
+          border: $main-border-hover;
+        }
+      }
+    }
+  }
+}
+
+// widget slideshow
+/* #slideshow {
+  .caption {
+    h3 {
+        a {
+          &:hover {
+            color: $theme-color-secondary;
+          }
+        }
+    }
+    .caption-title,
+    .caption-content {
+      @include rgba($theme-color-default, 0.9);
+    }
+  }
+}
+ */
+// product style
+.product-block {
+  .name{
+    a {                                      
+      &:hover{
+        color: $product-name-hover-color;
+      }
+    }
+  }
+
+  // button
+  .functional-buttons{
+    background: $theme-color-default;
+    &:before {
+      border-bottom: 5px solid $theme-color-default;
+    }
+  }
+}
+
+// Button Layout and Color Scheme
+.WhiteRounded {
+  background-color: $theme-color-default;
+}
+
+// footer
+#footer{
+  a{
+    &:hover{color: $link-hover-color;}
+  }
+  #newsletter_block_left {
+    form { 
+      .btn {
+        &:hover {
+          color: $theme-color-default;
+        }
+      }
+    }
+  }
+}
+/* .footer_logo {
+  a {
+    background: $theme-color-default;
+  }
+} */
+
+// blocksocial
+#social_block {
+  ul {
+    li {
+      &:hover {
+        a {
+          &:before {border: $main-border-hover;}
+        }
+      }
+    }
+  }
+}
+
+// blocksearch
+#search_block_top{
+  button.fa-search{
+    &:hover{color: $theme-color-default;}
+  }
+}
+ 
+// mini basket
+#cart{  
+  h4{ 
+    color: $cart-text-color;
+    .fa {
+      color: $cart-icon-color;
+    }
+  }
+  .cart-quantity{
+    background: $cart-bg-color;
+    color: $cart-text-color;
+  }
+}
+
+// block group top
+#leo_block_top{
+  ul{
+    li{
+      &.selected{
+        a{
+          color: $theme-color-default !important;
+        }
+      }
+      &.selected_language {
+        img{
+          border: 1px solid $theme-color-default;
+        }
+      }
+    }
+  }
+}
+
+/* block top menu */
+#block_top_menu {
+  .sf-menu {
+    > li {
+      @media (min-width: $screen-lg) {
+        > a {
+          color: $blocktopmenu-link-color;
+          &:before {
+            background-color: $theme-color-default;
+          }
+        }
+        &:hover, &:focus {
+          > a {
+            color: $blocktopmenu-link-hover-color;
+          }
+        }
+      }
+    }
+  }
+}
+
+.cat-title {
+  @media (max-width: $screen-sm-max) { // max 991px
+    background: $theme-color-default;
+    &:hover {
+      background: $theme-color-secondary; 
+    }   
+  }
+}
+
+.sf-menu li li li a {
+  &:hover {
+    color: $theme-color-default;
+  }
+}
+
+.header-simple {
+  #block_top_menu {
+    .sf-menu {
+      > li {
+        @media (min-width: $screen-lg) {
+          > a {
+            color: $blocktopmenu-link-simple-color;
+            &:before {
+              background-color: $theme-color-default;
+            }
+          }
+          &:hover, &:focus {
+            > a {
+                color: $theme-color-default;
+            }
+          }
+        }
+      }
+    }
+  } 
+}
+
+// blocksupport
+.blocksupport {
+    .widget-html {
+        .support-id {
+            .support-heading {
+                margin: 0;
+                text-transform: none;
+                a {
+                    color: $theme-color-default;
+                    &:hover {
+                        color: $theme-color-secondary;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// stack-center
+.header-stack-center {
+  #block_top_menu {
+    .sf-menu {
+      > li {
+        @media (min-width: $screen-lg) {
+          > a {
+            color: $blocktopmenu-link-simple-color;
+            &:before {
+              background-color: $theme-color-default;
+            }
+          }
+          &:hover, &:focus {
+            > a {
+              color: $theme-color-default;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// backtop
+#backtop{
+    background: $theme-color-default;
+}
+
+// carousel
+.carousel-control{
+  &:hover {
+    color: $theme-color-default;
+  }
+}
+
+// paneltool
+.paneltool .panelcontent {
+  .current-layout-mod{
+    color: $theme-color-default;
+  }
+  .leo-dynamic-update-header, 
+  .leo-dynamic-update-layout {
+    &:hover,&.current-header{
+      color:$theme-color-default;
+    }
+  }
+}
+#customize-body .nav-tabs .active a {
+  background: $theme-color-default;
+}
+
+// top bar module dropdown
+@media (min-width: $screen-lg) {
+  .popup-over {
+    .popup-title {
+      &:hover {
+        background: $theme-color-default;
+      }
+    }
+  }
+}
+//@mixin button-variant-outline($color, $background, $border, $colorhover, $bghover, $borderhover ) {
+.btn-inverse{
+  @include button-variant-outline($white, $theme-color-secondary, $nocolor, $white, $theme-color-default , $nocolor );
+} 
+.btn-outline{
+  @include button-variant-outline($white, $theme-color-default , $nocolor , $white, $theme-color-secondary, $nocolor );
+}

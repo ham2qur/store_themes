@@ -1,0 +1,4 @@
+#order #order-detail-content * { color: white !important; }
+#order #order_step * { color: white !important; }
+#order #order_step .step_current span { color: #FAAC58 !important; }
+#order #order_step .step_current span em { color: #FAAC58 !important; }

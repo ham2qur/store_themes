@@ -1,0 +1,30 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{reference}blf>reference_63d5049791d9d79d86e9a108b0a999ca'] = 'Référence';
+$_MODULE['<{reference}blf>reference_2205bc1bf8e4c0de96a6a93971a81c9e'] = 'Êtes vous sur de vouloir désinstaller Référence Module?';
+$_MODULE['<{reference}blf>adminreferencecontroller_60baadb22e80b147e4885ad16760e569'] = 'Ref';
+$_MODULE['<{reference}blf>adminreferencecontroller_be53a0541a6d36f6ecb879fa2c584b08'] = 'Image';
+$_MODULE['<{reference}blf>adminreferencecontroller_b78a3223503896721cca1303f776159b'] = 'Titre';
+$_MODULE['<{reference}blf>adminreferencecontroller_02a3a357710cc2a5dfdfb74ed012fb59'] = 'Url';
+$_MODULE['<{reference}blf>adminreferencecontroller_52f5e0bc3859bc5f5e25130b6c7e8881'] = 'Position';
+$_MODULE['<{reference}blf>adminreferencecontroller_ec53a8c4f07baed5d8825072c89799be'] = 'Status';
+$_MODULE['<{reference}blf>adminreferencecontroller_d3b206d196cd6be3a2764c1fb90b200f'] = 'Supprimer les éléments sélectionnés';
+$_MODULE['<{reference}blf>adminreferencecontroller_e25f0ecd41211b01c83e5fec41df4fe7'] = 'Supprimer les éléments sélectionnés?';
+$_MODULE['<{reference}blf>adminreferencecontroller_ede4759c9afae620fd586628789fa304'] = 'Activer les éléments sélectionnés';
+$_MODULE['<{reference}blf>adminreferencecontroller_ab7fd6e250b64a46027a996088fdff74'] = 'Désactiver les éléments sélectionnés';
+$_MODULE['<{reference}blf>adminreferencecontroller_c811ba96706f45a45d6fd0b6fcf13fd2'] = 'Paramètres généraux';
+$_MODULE['<{reference}blf>adminreferencecontroller_105da81c2460e470fa18071ff1fe2ee5'] = 'Définir le titre de la page référence';
+$_MODULE['<{reference}blf>adminreferencecontroller_b5a7adde1af5c87d7fd797b6245c2a39'] = 'Description';
+$_MODULE['<{reference}blf>adminreferencecontroller_9864d676b7aab097e68922de11066e2f'] = 'Définir la description de la page référence';
+$_MODULE['<{reference}blf>adminreferencecontroller_63d5049791d9d79d86e9a108b0a999ca'] = 'Référence';
+$_MODULE['<{reference}blf>adminreferencecontroller_0511ee0d41117aa7b4abaaf102aa513d'] = 'Ce champ est obligatoire';
+$_MODULE['<{reference}blf>adminreferencecontroller_a517747c3d12f99244ae598910d979c5'] = 'Auteur';
+$_MODULE['<{reference}blf>adminreferencecontroller_65f85046046875bd0b103e4edbc8a6f4'] = 'Uploader une image (290px de large et 110px de haut)';
+$_MODULE['<{reference}blf>adminreferencecontroller_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Activer';
+$_MODULE['<{reference}blf>adminreferencecontroller_b9f5c797ebbf55adccdd8539a65a0241'] = 'Désactiver';
+$_MODULE['<{reference}blf>adminreferencecontroller_c9cc8cce247e49bae79f15173ce97354'] = 'Enregistrer';
+$_MODULE['<{reference}blf>adminreferencecontroller_f16b5952df8d25ea30b25ff95ee8fedf'] = 'Association boutique';
+$_MODULE['<{reference}blf>referenceslist_d95867deadfe690e40f42068d6b59df8'] = 'Références';
+$_MODULE['<{reference}blf>home_2343236b1d54d27119e489738204d825'] = 'Toutes les références';

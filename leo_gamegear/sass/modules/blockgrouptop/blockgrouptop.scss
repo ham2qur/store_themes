@@ -1,0 +1,41 @@
+@import "compass";
+@import "theme_variables";
+
+#leo_block_top{
+	.languages-block,
+	#setCurrency {
+		padding: 5px;
+		span {
+			color: $link-color;
+		}
+	}
+	ul{
+		border: 1px solid $border-color;
+		margin-top: 5px;
+		li{
+			padding: 2px 5px;
+			text-align: center;
+			display: inline-block;
+			&.selected{
+				a{
+					color: $theme-color-default !important;
+				}
+			}
+			&.selected_language {
+				img{
+					padding: 1px;
+					width: 18px;
+					height: 14px;
+					border: 1px solid $theme-color-default;
+				}
+			}
+			&:last-child{
+				@include rtl-border-right(none);
+				border-bottom: none;
+			}
+			img {
+				border: 1px solid transparent;
+			}
+		}
+	}
+}

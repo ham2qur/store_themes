@@ -1,0 +1,5 @@
+Newsletter de {shop_name} 
+
+Message
+
+{message}

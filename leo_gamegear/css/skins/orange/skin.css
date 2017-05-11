@@ -1,0 +1,316 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+a:hover, a:focus {
+  color: #ff9200;
+}
+
+.content_sortPagiBar .display .selected a {
+  background-color: #ff9200;
+  border: 1px solid #ff9200;
+}
+.content_sortPagiBar .display .selected a .fa {
+  color: white;
+}
+
+.breadcrumb {
+  color: #ff9200;
+}
+.breadcrumb a:hover {
+  color: #ff9200;
+}
+
+/* .header-left{ 
+  #header_logo{
+    a {
+      background: $theme-color-default;
+    }
+  }
+} */
+#header-main {
+  /* background-image: $headermain-outside-bg; */
+}
+#header-main .popup-content ul li.selected span {
+  color: #ff9200;
+}
+
+.popup-over .popup-content li.selected {
+  color: #ff9200 !important;
+}
+.popup-over .popup-content li a:hover {
+  color: #ff9200 !important;
+}
+
+.breadcrumb {
+  color: #ff9200;
+}
+.breadcrumb a:hover {
+  color: #ff9200;
+}
+
+.block .title_block span {
+  color: #ff9200;
+}
+
+.widget .tags_block a:hover {
+  border: 1px solid #ff9200;
+}
+.widget .widget-manufacture .carousel-control:hover:before {
+  color: #ff9200;
+}
+.widget .widget-html .blog_container .blog-image h5 a:hover {
+  color: #FFF;
+}
+.widget .widget-html .blog_container .blog-content .blog-viewmore a:hover {
+  color: #ff9200;
+}
+.widget .leomanagerwidgets .product-block:hover .functional-buttons {
+  background: #ff9200;
+}
+.widget .box-services:hover .iconbox {
+  background-color: #ff9200;
+}
+
+.footer-container .widget-html .copyright .copyrightcenter .text {
+  color: #ff9200;
+}
+.footer-container .widget-html .payment a:hover {
+  border: 1px solid #ff9200;
+}
+
+/* #slideshow {
+  .caption {
+    h3 {
+        a {
+          &:hover {
+            color: $theme-color-secondary;
+          }
+        }
+    }
+    .caption-title,
+    .caption-content {
+      @include rgba($theme-color-default, 0.9);
+    }
+  }
+}
+ */
+.product-block .name a:hover {
+  color: #ff9200;
+}
+.product-block .functional-buttons {
+  background: #ff9200;
+}
+.product-block .functional-buttons:before {
+  border-bottom: 5px solid #ff9200;
+}
+
+.WhiteRounded {
+  background-color: #ff9200;
+}
+
+#footer a:hover {
+  color: #ff9200;
+}
+#footer #newsletter_block_left form .btn:hover {
+  color: #ff9200;
+}
+
+/* .footer_logo {
+  a {
+    background: $theme-color-default;
+  }
+} */
+#social_block ul li:hover a:before {
+  border: 1px solid #ff9200;
+}
+
+#search_block_top button.fa-search:hover {
+  color: #ff9200;
+}
+
+#cart h4 {
+  color: white;
+}
+#cart h4 .fa {
+  color: white;
+}
+#cart .cart-quantity {
+  background: #ff9200;
+  color: white;
+}
+
+#leo_block_top ul li.selected a {
+  color: #ff9200 !important;
+}
+#leo_block_top ul li.selected_language img {
+  border: 1px solid #ff9200;
+}
+
+/* block top menu */
+@media (min-width: 1200px) {
+  #block_top_menu .sf-menu > li > a {
+    color: #272727;
+  }
+  #block_top_menu .sf-menu > li > a:before {
+    background-color: #ff9200;
+  }
+  #block_top_menu .sf-menu > li:hover > a, #block_top_menu .sf-menu > li:focus > a {
+    color: #ff9200;
+  }
+}
+
+@media (max-width: 991px) {
+  .cat-title {
+    background: #ff9200;
+  }
+  .cat-title:hover {
+    background: #32c5de;
+  }
+}
+
+.sf-menu li li li a:hover {
+  color: #ff9200;
+}
+
+@media (min-width: 1200px) {
+  .header-simple #block_top_menu .sf-menu > li > a {
+    color: #272727;
+  }
+  .header-simple #block_top_menu .sf-menu > li > a:before {
+    background-color: #ff9200;
+  }
+  .header-simple #block_top_menu .sf-menu > li:hover > a, .header-simple #block_top_menu .sf-menu > li:focus > a {
+    color: #ff9200;
+  }
+}
+
+.blocksupport .widget-html .support-id .support-heading {
+  margin: 0;
+  text-transform: none;
+}
+.blocksupport .widget-html .support-id .support-heading a {
+  color: #ff9200;
+}
+.blocksupport .widget-html .support-id .support-heading a:hover {
+  color: #32c5de;
+}
+
+@media (min-width: 1200px) {
+  .header-stack-center #block_top_menu .sf-menu > li > a {
+    color: #272727;
+  }
+  .header-stack-center #block_top_menu .sf-menu > li > a:before {
+    background-color: #ff9200;
+  }
+  .header-stack-center #block_top_menu .sf-menu > li:hover > a, .header-stack-center #block_top_menu .sf-menu > li:focus > a {
+    color: #ff9200;
+  }
+}
+
+#backtop {
+  background: #ff9200;
+}
+
+.carousel-control:hover {
+  color: #ff9200;
+}
+
+.paneltool .panelcontent .current-layout-mod {
+  color: #ff9200;
+}
+.paneltool .panelcontent .leo-dynamic-update-header:hover, .paneltool .panelcontent .leo-dynamic-update-header.current-header,
+.paneltool .panelcontent .leo-dynamic-update-layout:hover,
+.paneltool .panelcontent .leo-dynamic-update-layout.current-header {
+  color: #ff9200;
+}
+
+#customize-body .nav-tabs .active a {
+  background: #ff9200;
+}
+
+@media (min-width: 1200px) {
+  .popup-over .popup-title:hover {
+    background: #ff9200;
+  }
+}
+.btn-inverse {
+  color: white;
+  background-color: #32c5de;
+  border-color: transparent;
+}
+.btn-inverse:hover, .btn-inverse:focus, .btn-inverse:active, .btn-inverse.active {
+  color: white;
+  background-color: #ff9200;
+  border-color: transparent;
+}
+.open .btn-inverse.dropdown-toggle {
+  color: white;
+  background-color: #ff9200;
+  border-color: transparent;
+}
+.btn-inverse:active, .btn-inverse.active {
+  background-image: none;
+}
+.open .btn-inverse.dropdown-toggle {
+  background-image: none;
+}
+.btn-inverse.disabled, .btn-inverse.disabled:hover, .btn-inverse.disabled:focus, .btn-inverse.disabled:active, .btn-inverse.disabled.active, .btn-inverse[disabled], .btn-inverse[disabled]:hover, .btn-inverse[disabled]:focus, .btn-inverse[disabled]:active, .btn-inverse[disabled].active, fieldset[disabled] .btn-inverse, fieldset[disabled] .btn-inverse:hover, fieldset[disabled] .btn-inverse:focus, fieldset[disabled] .btn-inverse:active, fieldset[disabled] .btn-inverse.active {
+  background-color: #32c5de;
+  border-color: transparent;
+}
+.btn-inverse .badge {
+  color: #32c5de;
+  background-color: white;
+}
+
+.btn-outline {
+  color: white;
+  background-color: #ff9200;
+  border-color: transparent;
+}
+.btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
+  color: white;
+  background-color: #32c5de;
+  border-color: transparent;
+}
+.open .btn-outline.dropdown-toggle {
+  color: white;
+  background-color: #32c5de;
+  border-color: transparent;
+}
+.btn-outline:active, .btn-outline.active {
+  background-image: none;
+}
+.open .btn-outline.dropdown-toggle {
+  background-image: none;
+}
+.btn-outline.disabled, .btn-outline.disabled:hover, .btn-outline.disabled:focus, .btn-outline.disabled:active, .btn-outline.disabled.active, .btn-outline[disabled], .btn-outline[disabled]:hover, .btn-outline[disabled]:focus, .btn-outline[disabled]:active, .btn-outline[disabled].active, fieldset[disabled] .btn-outline, fieldset[disabled] .btn-outline:hover, fieldset[disabled] .btn-outline:focus, fieldset[disabled] .btn-outline:active, fieldset[disabled] .btn-outline.active {
+  background-color: #ff9200;
+  border-color: transparent;
+}
+.btn-outline .badge {
+  color: #ff9200;
+  background-color: white;
+}
+
+.blocksupport .widget-html .support-id.shipping .image {
+  background-position: 0 -414px;
+}
+.blocksupport .widget-html .support-id.order .image {
+  background-position: 0 -483px;
+}
+.blocksupport .widget-html .support-id.help .image {
+  background-position: 0 -552px;
+}

@@ -1,0 +1,19 @@
+// footer.scss
+@import "vars/footer.vars";
+
+// block in footer
+#footer {
+    .#{$block-selector} {  
+        .#{$block-heading-selector}{
+            position: relative;          
+            font-size: $block-heading-font-size - 9px;
+            color: $block-heading-footer-color;
+            &:before {
+                width: 40%;
+            }
+            &:after {
+                width: 180px;
+            }
+        }
+    }
+}

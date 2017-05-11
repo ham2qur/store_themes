@@ -1,0 +1,23 @@
+#manufacturer #left_column #categories_block_left .title_block { background-color: #222222 !important; border-bottom: 1px solid whitesmoke !important; }
+#manufacturer #left_column #categories_block_left .block_content { border: none !important; }
+#manufacturer #left_column #categories_block_left .block_content ul li a { color: white !important; }
+#manufacturer #left_column #categories_block_left .block_content ul li a:hover { color: #FAAC58 !important; }
+#manufacturer #left_column #new-products_block_right .title_block { background-color: #222222 !important; border-bottom: 1px solid whitesmoke !important; }
+#manufacturer #left_column #new-products_block_right .block_content { border: none !important; }
+#manufacturer #left_column #new-products_block_right .block_content .product-block .name a { color: white !important; }
+#manufacturer #left_column #new-products_block_right .block_content .product-block .name a:hover { color: #FAAC58 !important; }
+#manufacturer #left_column #manufacturers_block_left .title_block { background-color: #222222 !important; border-bottom: 1px solid whitesmoke !important; }
+#manufacturer #left_column #manufacturers_block_left .block_content { border: none !important; }
+#manufacturer #left_column #manufacturers_block_left .block_content ul li a { color: white !important; }
+#manufacturer #left_column #manufacturers_block_left .block_content ul li a:hover { color: #FAAC58 !important; }
+#manufacturer #left_column #informations_block_left_1 { display: none !important; }
+#manufacturer #left_column #categories_blog_menu { display: none !important; }
+#manufacturer #left_column #viewed-products_block_left .title_block { background-color: #222222 !important; border-bottom: 1px solid whitesmoke !important; }
+#manufacturer #left_column #viewed-products_block_left .block_content { border: none !important; }
+#manufacturer .product-block .name a { color: white !important; }
+#manufacturer .product-block .name a:hover { color: #FAAC58 !important; }
+#manufacturer .content_sortPagiBar { border-radius: 5px !important; }
+#manufacturer .showall div button { border-color: #FAAC58 !important; }
+#manufacturer .showall div button:hover { background-color: #FAAC58 !important; transition: 0.5s; }
+#manufacturer .lnk_more { color: white !important; }
+#manufacturer .lnk_more:hover { color: #FAAC58 !important; }

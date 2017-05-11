@@ -1,0 +1,50 @@
+.carousel-control{
+  z-index: 10;
+  width: 20px;
+  height: 25px;
+  background: none!important;
+  line-height: 1; 
+  top: -43px;
+  color: #c6c6c6;
+  @include opacity(1);
+  &:before{
+    position: absolute;
+    content: "\f105"; // "\f104"
+    font-family: $font-icon;
+    font-size: 26px;
+    text-shadow: none;
+  }
+  &.left{
+    left: auto;
+    right: 25px;
+    &:before{
+      content: "\f104";
+    }
+  }
+  &.right{
+    right: 0;
+  }
+  &:hover {
+    color: $theme-color-default;
+  }
+}
+.radio, .checkbox {@include rtl-padding-left(20px);}
+.radio input[type="radio"],
+.radio-inline input[type="radio"],
+.checkbox input[type="checkbox"],
+.checkbox-inline input[type="checkbox"] {
+  @include rtl-float-left();
+  @include rtl-margin-left(-20px);
+}
+.radio-inline, .checkbox-inline {@include rtl-padding-left(20px);}
+.radio-inline + .radio-inline,
+.checkbox-inline + .checkbox-inline {
+  @include rtl-margin-left(10px);
+}
+//@mixin button-variant-outline($color, $background, $border, $colorhover, $bghover, $borderhover ) {
+.btn-inverse{
+  @include button-variant-outline($white, $theme-color-secondary, $nocolor, $white, $theme-color-default , $nocolor );
+} 
+.btn-outline{
+  @include button-variant-outline($white, $theme-color-default , $nocolor , $white, $theme-color-secondary, $nocolor );
+}

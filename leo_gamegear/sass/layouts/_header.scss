@@ -1,0 +1,141 @@
+// header.scss
+@import "vars/header.vars";
+
+.logo{
+	display: inline-block;
+}
+
+/* // classic
+.header-classic{	
+	#header_logo{
+		float: left;
+	}
+	#leo-megamenu{
+		float: left;
+	}
+}
+// fixed
+.header-fixed{	
+	#header_logo{}
+	#leo-megamenu{}
+} 
+
+// right
+.header-right{	
+	#header_logo{
+		@include rtl-text-align-right();
+	}
+	#leo-megamenu{}
+}
+// center
+.header-center{	
+	#header_logo{
+		text-align: center;
+	}
+	#leo-megamenu{}
+}
+ */
+ // left
+.header-left{	
+	#header_logo{
+		position: relative;
+		z-index: 97;
+		a {
+			vertical-align: middle;
+			display: inline-block;
+		}
+	}
+	#topbar {display: none;}
+}
+
+.header-simple {
+	#header-main {
+		background: $white;
+	}
+	#block_top_menu {
+	    .sf-menu {
+	        > li {
+	            @media (min-width: $screen-lg) {
+	                > a {
+	                    color: $blocktopmenu-link-simple-color;
+	                    &:before {
+	                        top: 0;
+	                        content: "";
+	                        height: 2px;
+	                        position: absolute;
+	                        width: 100%;
+	                        background-color: $theme-color-default;
+	                        @include transition(left 0.4s ease-out 0s);
+	                        @include rtl-left(-100%);
+	                    }
+	                }
+	                &:hover, &:focus {
+	                    > a {
+	                        color: $theme-color-default;
+	                        &:before {
+	                            @include rtl-left(0);
+	                            @include transition(left 0.4s ease-out 0s);
+	                        }
+	                    }
+	                }
+	            }
+	        }
+	    }
+	}
+	#topbar {
+		display: block;
+		&.hide-bar {margin-top: 0 !important;}
+	}
+}
+
+// stack-right
+.header-stack-right {
+	#header_logo {
+		@include rtl-float-right();
+	}
+}
+
+// stack-center
+.header-stack-center {
+	.header-left {
+		#header_logo {
+			width: 100%; text-align: center;
+		}
+		.header_right {
+			width: 100%;
+		}
+	}
+	#block_top_menu {
+	    .sf-menu {
+	        > li {
+	            @media (min-width: $screen-lg) {
+	                > a {
+	                    color: $blocktopmenu-link-simple-color;
+	                    &:before {
+	                        top: 0;
+	                        content: "";
+	                        height: 2px;
+	                        position: absolute;
+	                        width: 100%;
+	                        background-color: $theme-color-default;
+	                        @include transition(left 0.4s ease-out 0s);
+	                        @include rtl-left(-100%);
+	                    }
+	                }
+	                &:hover, &:focus {
+	                    > a {
+	                        color: $theme-color-default;
+	                        &:before {
+	                            @include rtl-left(0);
+	                            @include transition(left 0.4s ease-out 0s);
+	                        }
+	                    }
+	                }
+	            }
+	        }
+	    }
+	} 
+	#topbar {
+		border-top: $main-border;
+	}
+}

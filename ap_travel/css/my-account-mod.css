@@ -1,0 +1,23 @@
+/* MY ACCOUNT */
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+#my-account .btn-outline { display: none !important;}
+#my-account > p, #my-account > label, #my-account > a { font-family: 'Varela Round', sans-serif !important; }
+#my-account ul.myaccount-link-list li a:hover > .fa::before { color: #BE81F7 !important; transition: 0.5s; }
+#center_column { background-color: #222 !important; }
+#center_column > p { color: white !important; } 
+.columns-container { background-color: #222 !important; }
+
+/* MY ACCOUNT > ADRESS */
+.info-title { color: white !important; }
+#address label { color: white !important; }
+.inline-infos { color: white !important; }
+.inline-infos label { color: white !important; }
+.dni span.form_info { color: white !important; }
+
+/* MY ACCOUNT > ORDER HISTORY */
+
+/* MY ACCOUNT > ADDRESSES */
+#addresses #center_column p.alert-danger { color: #333333 !important; }
+.alert-danger { background-color: #FAAC58 !important; color: #333 !important; border: none !important; }
+p.alert-danger > a:hover { color: #BE81F7 !important; }
+p.alert-danger > a:focus { color: #BE81F7 !important; }

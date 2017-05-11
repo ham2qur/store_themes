@@ -1,0 +1,29 @@
+/* PRODUCTS */
+#columns { color: white !important; }
+#product-mod-description h1 { color: #FAAC58 !important; }
+#product-mod-description p { color: white !important; }
+#columns #availability_statut #availability_value { color: white !important; }
+#columns .price .our_price_display { color: #FAAC58 !important; }
+#columns .socialsharing_product > .social-sharing { border: 2px solid #FAAC58 !important; }
+#columns .socialsharing_product .btn:hover { background-color:  #FAAC58 !important; transition: 0.5s; }
+#columns .socialsharing_product .btn i::before { color: #FAAC58 !important; }
+#columns .socialsharing_product .btn:hover i::before { color: white !important; }
+#columns .sendtofriend { border: 2px solid #FAAC58 !important; }
+#columns .sendtofriend:hover { background-color:  #FAAC58 !important; transition: 0.5s; }
+#columns .sendtofriend a::before { color: #FAAC58 !important; }
+#columns .sendtofriend:hover a::before { color: white !important; }
+#columns .print { border: 2px solid #FAAC58 !important; }
+#columns .print:hover { background-color:  #FAAC58 !important; transition: 0.5s; }
+#columns .print:hover a::before { color: white !important; }
+#columns .print a::before { color: #FAAC58 !important; }
+#columns #wrapResetImages a { color: white !important; }
+#columns #wrapResetImages a:hover { color: #BE81F7 !important;  transition: 0.5s;}
+#columns #view_scroll_right::before { color: white !important; }
+#columns #view_scroll_right:hover::before { color: #BE81F7 !important; transition: 0.5s; }
+#columns #view_scroll_left::before { color: white !important; }
+#columns #view_scroll_left:hover::before { color: #BE81F7 !important; transition: 0.5s; }
+#columns ul.nav li a { color: white !important; }
+#columns ul.nav li a:hover { border-bottom: 2px solid #BE81F7 !important; }
+#columns ul.nav li.active a { color: #BE81F7 !important;  border-bottom: 2px solid #BE81F7 !important; }
+#productscategory_list .product-name { color: white !important; }
+#productscategory_list .product-name:hover { color: #FAAC58 !important; }

@@ -1,0 +1,22 @@
+@import 'compass';
+@import "theme_variables";
+
+@font-face {
+    font-family: 'NokiaStandardMultiscriptRegular';
+    src: url('#{$theme-font-path}nokiastandardmultiscript.eot');
+    src: url('#{$theme-font-path}nokiastandardmultiscript.eot') format('embedded-opentype'),
+         url('#{$theme-font-path}nokiastandardmultiscript.woff2') format('woff2'),
+         url('#{$theme-font-path}nokiastandardmultiscript.woff') format('woff'),
+         url('#{$theme-font-path}nokiastandardmultiscript.ttf') format('truetype'),
+         url('#{$theme-font-path}nokiastandardmultiscript.svg#NokiaStandardMultiscriptRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'NokiaStandardMultiscriptBold';
+    src: url('#{$theme-font-path}nokia_standard_multiscript_bold.eot');
+    src: url('#{$theme-font-path}nokia_standard_multiscript_bold.eot') format('embedded-opentype'),
+         url('#{$theme-font-path}nokia_standard_multiscript_bold.woff2') format('woff2'),
+         url('#{$theme-font-path}nokia_standard_multiscript_bold.woff') format('woff'),
+         url('#{$theme-font-path}nokia_standard_multiscript_bold.ttf') format('truetype'),
+         url('#{$theme-font-path}nokia_standard_multiscript_bold.svg#NokiaStandardMultiscriptBold') format('svg');
+}

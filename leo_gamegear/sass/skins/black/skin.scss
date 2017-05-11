@@ -1,0 +1,81 @@
+@import "compass";
+@import "theme_variables";
+
+$image-theme-base-path: "img/";
+
+$base-text-color : red;
+
+$theme-color-default: 		    #000000;
+$theme-color-secondary:         #32c5de;
+$link-hover-color: 			    $theme-color-default;
+
+$main-border-hover:             1px solid $theme-color-default;
+
+$topbar-color-hover: 		    $link-hover-color;
+$topbar-link-hover-color: 	    $link-hover-color;
+
+$headermain-color-hover: 		$link-hover-color;
+$headermain-link-hover-color: 	$link-hover-color;
+
+$mainnav-color-hover: 		    $link-hover-color;
+$mainnav-link-hover-color: 	    $link-hover-color;
+
+$footer-top-color-hover: 		$link-hover-color;
+
+$footer-center-color-hover: 	$link-hover-color;
+
+$footer-nav-color-hover: 		$link-hover-color;
+$product-name-hover-color: 		$link-hover-color;
+$product-price-color: 			$theme-color-default;
+
+$breadcrumb-active-color: 		$link-hover-color;
+
+$megamenu-link-bg-hover-color:  $theme-color-default;
+$megamenu-link-hover-color:     $theme-color-default;
+$megamenu-link-hover-border:    $main-border;
+
+$button-addtocart-border-2:     $theme-color-default;
+
+$pagination-active-bg:          #32c5de !default;
+$pagination-active-border:      #32c5de !default;
+$pagination-hover-bg:           #32c5de !default;
+$pagination-hover-border:       #32c5de !default;
+
+// product emlement
+$product-name-hover-color:      $link-hover-color!default;
+
+// mini cart
+$cart-bg-color: 				$theme-color-default;
+$cart-text-color:               $white;
+$cart-icon-color:               $white;
+
+// blocktopmenu
+$blocktopmenu-link-color:       #272727;
+$blocktopmenu-link-hover-color: $theme-color-default;
+$blocktopmenu-link-simple-color:  $blocktopmenu-link-color !default;
+
+@import "../_skin";
+
+// blocksupport
+.blocksupport {
+    .widget-html {
+        .support-id {
+            &.shipping {
+                .image {
+                    background-position: 0 -207px;
+                }
+            }
+            &.order {
+                .image {
+                    background-position: 0 -276px;
+                }
+            }
+            &.help {
+                .image {
+                    background-position: 0 -345px;
+                }
+            }
+            
+        }
+    }
+}

@@ -1,0 +1,160 @@
+/******************************************************
+ * $package Leo Theme Framework for Leo THeme 1.6.x
+ * $version 1.1
+ * $author http://www.leotheme.com
+ * $copyright   Copyright (C) Augus 2013 PavoThemes.com <$emai:leotheme$gmail.com>.All rights reserved.
+ * $license     GNU General Public License version 2
+ *******************************************************/
+ // layout.scss
+
+@import "vars/layout.vars";
+body{
+    &.layout-boxed-md{
+        background: $white;
+        #page{  
+            max-width: $container-desktop + 20px; 
+            @include box-shadow(0 0 5px lighten($gray, 50%));
+            margin: 0 auto;    
+            background: $white;
+            .container {
+                max-width: $container-desktop;
+            }
+        }  
+        .widget .products_block .nav-tabs {@include rtl-right(10%);}
+        .fs-style {
+            &:before, &:after {padding: 0 10px; @include rtl-left(-10px);}
+        }
+        #header-main .header_right .popup-over {@include rtl-margin-left(4px);}
+    }
+    &.layout-boxed-lg{
+        background: $white;
+        #page{  
+            max-width: $container-lg + 20px; 
+            @include box-shadow(0 0 5px lighten($gray, 50%));
+            margin: 0 auto;    
+            background: $white;
+            .container {
+                max-width: $container-lg;
+            }
+        }
+        .fs-style {
+            &:before, &:after {padding: 0 10px; @include rtl-left(-10px);}
+        }
+    }
+} 
+
+.container{
+    position: relative;
+}
+
+/*
+* HEADER 
+*/
+ 
+#topbar  {
+    /* min-height: $topbar-height; */
+    font-size: $topbar-font-size;
+    background: $topbar-outside-bg;
+    .container{
+        @include container-layout-variant($topbar-color, $topbar-bg);
+        
+    }
+    .links{  
+        padding: 6px 0;
+        li {
+            display: inline-block;
+        }  
+    } 
+    a{color: $topbar-color;
+        &:hover{color: $link-hover-color;}
+    }
+    .widget-html {
+        margin-bottom: 0;
+    }
+}
+
+#index {
+    #header-main {
+        margin-bottom: 0;
+    }
+}
+#header-main{
+    margin-bottom: 10px;
+    background: $headermain-outside-bg;
+    border-bottom: none;
+    @include box-shadow(0 1px 5px rgba(0, 0, 0, 0.2));
+    .container{
+        @include container-layout-variant($headermain-color, $headermain-bg); 
+        a.btn{
+            color: $white;            
+            &:hover{color: $white;}
+        }
+    }
+    &.mini-navbar{ // float header
+    }
+    .popup-content {
+        ul {
+            margin: 0;
+            padding: 0;
+            li {
+                line-height: 22px;
+                &.selected {
+                    span {
+                        color: $theme-color-default;
+                    }
+                }
+            }
+        }
+    }
+    .header_right {
+        .popup-over {
+            @include rtl-margin-left(10px);
+            margin-top: 22px;
+            border: none;
+        }
+    }
+}
+
+
+/* FOOTER */
+#page #footer {
+    margin-top: 15px;
+}
+#footer{
+    @include clearfix();
+    background: $footer-outside-bg;
+    .container{
+        @include container-layout-variant($footer-color, $footer-bg);   
+    } 
+    a{color: $footer-color;
+        &:hover{color: $link-hover-color;}
+    }
+    .block {
+        .block_content {
+            background: none;
+        }
+    }
+}
+.footer_logo {
+    a {
+        display: inline-block;
+        background: #999;
+    }
+}
+
+#backtop{
+    cursor: pointer;
+    z-index: 6;
+    position: fixed;
+    bottom: 15px;
+    margin: auto;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 20px;
+    color: $white;
+    background: $theme-color-default;
+    @include border-radius(50px);
+    @include rtl-right(15px);
+}

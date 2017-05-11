@@ -1,0 +1,31 @@
+#account-creation_form .id_state, #account-creation_form .dni, #account-creation_form .postcode {
+	display: none;
+}
+#account-creation_form  sup {color:red;}
+#account-creation_form .control-label {width:80px;}
+#account-creation_form .controls {margin-left:87px;}
+#account-creation_form p.required {
+	margin: 0;
+	font-size: 14px;
+	line-height: 35px;
+}
+#account-creation_form p.text label,
+#account-creation_form p.password label {
+	display:inline-block;
+	padding:6px 4px 6px 0;
+	width:79px;/* 130 */
+	text-align:right;
+	margin-bottom: 10px;
+}
+#account-creation_form p.text input,
+#account-creation_form p.password input {
+	width:206px;/* 216 */
+	margin-top: 7px;
+}
+#authentication .error {
+	margin: 10px;
+	margin-bottom: 15px;
+}
+#submitAccount {
+	margin-left: 133px;
+}

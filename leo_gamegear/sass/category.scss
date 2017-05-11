@@ -1,0 +1,18 @@
+@import "compass";
+@import "theme_variables";
+// cateogry 
+#subcategories{
+  margin-bottom: $grid-gutter-width - 5;
+  padding: 10px 0;
+  background: $white;
+} 
+.subcategories{
+  .cat-desc{
+      overflow: hidden;
+      height: 39px; 
+      text-align: center;
+  }
+  .cat-name {
+  	text-align: center;
+  }
+}

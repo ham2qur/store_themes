@@ -1,0 +1,15 @@
+/* AUTENTICACIÓN */
+#authentication { background-color: #222 !important; }
+.page-heading { color: white !important; }
+.page-subheading { color: white !important; }
+#create-account_form p { color: white !important; }
+.form_content { color: #FAAC58 !important; }
+#login_form .form-group.lost_password a { color: white !important; }
+#login_form .form-group.lost_password a:hover { color: #FAAC58 !important;}
+#SubmitCreate { background-color: whitesmoke !important; border: none !important; color: #222 !important; }
+#SubmitCreate:hover { background-color: #BE81F7 !important; color: white !important; transition: 0.5s; }
+#SubmitLogin { background-color: whitesmoke !important;  border: none !important; color: #222 !important; }
+#SubmitLogin:hover { background-color: #BE81F7 !important; color: white !important; transition: 0.5s; }
+
+/* REGISTER FORM */
+.control-label, .radio-inline label, .password div span, .checkbox label { color: white !important; }

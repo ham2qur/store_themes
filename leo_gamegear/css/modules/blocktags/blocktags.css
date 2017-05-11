@@ -1,0 +1,24 @@
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+.tags_block a {
+  border: 1px solid #ededed;
+  padding: 2px 5px;
+  margin-bottom: 3px;
+  display: inline-block;
+}
+.tags_block a:hover {
+  border: 1px solid #32c5de;
+}
